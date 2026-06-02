@@ -1,3 +1,3 @@
 $("#btn-load").click(function () {
-  window.location.href='ex01.html';
+  window.location.href='aps.html';
 });
