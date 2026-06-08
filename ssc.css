@@ -1,4 +1,5 @@
 body {
+     margin: 0;
     background-image: url("images/menu\ page.jpg");
     background-size: cover;
     background-position: center;
@@ -12,7 +13,8 @@ h1 {
     color: #000000;
     font-size: 48px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 35px;
+
 
 
 }
@@ -20,7 +22,79 @@ h2 {
     font-family: 'Chango', cursive;
     color: #873737;
     font-size: 60px;
-    position: relative;
+    position: absolute;
     left: 250px;
-    margin-top: 50px;
+    margin-top: 15px;
+}
+.asher {
+    font-family: 'Chango', cursive;
+    color: #873737;
+    font-size: 15px;
+    position: absolute;
+    left: 265px;
+    margin-top: 83px;
+}
+button {
+    font-family: 'jazz LET', fantasy;
+    font-size: 45px;
+    background-color: #ffd771;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    width: 120px;
+    height: 110px;
+    border-radius: 20px;
+    top: 200px;
+}
+#artsy-button {
+   cursor: pointer;
+   position: absolute;
+   left: 520px;
+   margin-top: -150px;
+}
+h3 {
+    font-family: 'Chango', cursive;
+    color: #873737;
+    font-size: 60px;
+    position: absolute;
+    left: 950px;
+    margin-top: 5px;
+}
+.jake {
+    font-family: 'Chango', cursive;
+    color: #873737;
+    font-size: 15px;
+    position: absolute;
+    left: 965px;
+    margin-top: 73px;
+}
+#gym-button {
+   cursor: pointer;
+   position: absolute;
+   left: 1220px;
+   margin-top: -160px;
+}
+h4 {
+    font-family: 'Chango', cursive;
+    color: #873737;
+    font-size: 60px;
+    position: absolute;
+    left: 250px;
+    margin-top: 310px;
+}
+.spencer {
+    font-family: 'Chango', cursive;
+    color: #873737;
+    font-size: 15px;
+    position: absolute;
+    left: 270px;
+    margin-top: 380px;
+}
+#smart-button {
+   cursor: pointer;
+   position: absolute;
+   left: 520px;
+   margin-top: 180px;
 }
