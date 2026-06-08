@@ -98,3 +98,25 @@ h4 {
    left: 520px;
    margin-top: 180px;
 }
+h5 {
+    font-family: 'Chango', cursive;
+    color: #873737;
+    font-size: 60px;
+    position: absolute;
+    left: 950px;
+    margin-top: 310px;
+}
+.lynn {
+    font-family: 'Chango', cursive;
+    color: #873737;
+    font-size: 15px;
+    position: absolute;
+    left: 970px;
+    margin-top: 380px;
+}
+#trendy-button {
+   cursor: pointer;
+   position: absolute;
+   left: 1220px;
+   margin-top: 160px;
+}
