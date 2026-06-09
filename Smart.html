@@ -14,6 +14,8 @@
 
   <!-- jQuery library -->
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-database-compat.js"></script>
 
   <!-- Link to JS File -->
   <script src="Smart.js" defer></script>
@@ -21,17 +23,34 @@
 
 <body>
   <!-- Main Title & Description -->
+<div id="discription">
+    <h1>Spencer</h1>
+    <p>Spencer loves to read new titles and read a book while on the bus. 
+    They know random facts about everything and anything. They arethe type to plan out study dates,
+     which come in handy during finals, color-code their notes, and correct your grammar lovingly. 
+     Can be very awkward when flirting, but they try. The sweetest out of all the suitors.
 
-  <h1>Smart/Studious Slug</h1>
-
-    <p>
-   Description.
+<li>Green Flags: Libraries, Tea, Documentaries, Puzzles, and Late night studying
+</li>
+<li> Red Flags: Overthinks a lot, can turn conversations into lectures, and has perhaps said “Statistically speaking...” during an argument</li>
+    </div>
   </p>
 
-     <div> <button id="btn-load">Start</button> </div>      
-     <div> <button id="btn-load">Start</button> </div>
 
+<div id="dialogue-box">
+    <p id="dialogue-text">Ask Spencer...</p>
+    
+    <button id="q1">How should we split the bill?</button>
+    <button id="q2">What's something that keeps you up at night?</button>
 
-</body>
+    <button id="q3">Do you have anything planned after this?</button>
+    <button id="q4">Why are you single?</button>
 
+    <button id="date-button">DATE</button>
+    <button id="reject-button">REJECT</button>
+      </a>
+</div>
+
+<script src="script.js"></script>
+<body>
 </html>

@@ -51,8 +51,11 @@ q4.onclick = function () {
 
 dateButton.onclick = function () {
   window.open("date.html")
+  
 };
 
 rejectButton.onclick = function () {
-  window.open("reject.html")
+  window.open("menu.html")
+  
 };
+
