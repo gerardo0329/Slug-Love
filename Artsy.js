@@ -55,7 +55,7 @@ dateButton.onclick = function () {
 };
 
 rejectButton.onclick = function () {
-  window.open("menu.html")
+  window.open("ssc.html")
   
 };
 
